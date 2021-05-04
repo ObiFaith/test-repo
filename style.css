@@ -1,0 +1,130 @@
+a/*It is impoprtant to minify to ur css inorder for it to render quickly*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Roboto", "Times New Roman", monospace;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/logo1.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+.head{
+	background-color: brown;
+	height: 50px;
+}
+.logo{
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+
+}
+.logo h2{
+	font-weight: bold;
+	font-size: 25px;
+	margin: 10px 0;
+	border-radius: 2px 10px;
+}
+nav{
+	float: right;	
+	margin-right: 100px;
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+}	
+nav li a{
+	color: yellow;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 10px 20px;
+}
+.logo h2, .active, nav li a:hover{
+ background-color: white;
+ padding: 6px;
+ color: brown;
+}
+.logo h2{
+	padding-bottom: 0;
+}
+p{
+	font-family: 'Poiret One', cursive;
+	height: 40%;
+	line-height: 20px;
+}
+h2,h4{
+	text-align: center;
+	color: yellow;
+}
+
+header h4{
+	color: white;
+	padding: 5px;
+}
+button{
+	border: none;
+	background-color: brown;
+	margin: 0% 45% 0%;
+	margin-bottom: 0px;
+}
+button h4{
+	margin: 5px;
+}
+section{
+	color: brown;
+	background-color: aliceblue;
+}
+section h3{
+	color: red;
+	font-family: arial black;
+	margin-left: 15px;
+}
+section p{
+	width: 370px;
+	height: 230px;
+	margin: 0 0 0 20px;
+}
+section aside{
+	display: inline-block;
+}
+section img{	
+	margin: 8px;
+	width: 370px;
+	height: 230px;
+}
+.left{
+	margin: 1% 1% 0 4%;
+}
+.right{
+	margin: 1% 4% 0 1%;
+}
+footer{
+	padding: 30px;
+	color: black;
+	background-color: brown;
+	clear: both;
+}
+footer aside{
+	padding: 0px 40px;
+	color: white;
+}
+.left-side{
+	float: left;
+	width: 60%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+footer span{
+	font-weight: bold;
+	font-size: 20px;
+}	
+footer p{
+	font-family: calibri, "Times New Roman";
+}
+
